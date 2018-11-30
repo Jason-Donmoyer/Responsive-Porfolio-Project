@@ -12,7 +12,7 @@ body {
 #navbar {
 	overflow: hidden;
 	position: fixed;
-	background-color: #11F3FF;
+	background-color: #98E7F2;
 	top: 0;
 	width: 100%;
 }
@@ -109,7 +109,47 @@ body {
 	
 }
 
+/********** Media Queries **********/
 
+/* screen min-width 768 */
+        
+@media only screen and (min-width: 768px) {
+
+	#navbar ul {
+		width: 50%;
+		float: right;
+	}
+
+	.project-container {
+		display: flex;
+		flex-direction: row;;
+		flex-wrap: wrap;
+	}
+	.project-title {
+		height: 350px;
+		width: 45%;
+		padding-left: 5px;
+		padding-right: 5px;
+		padding-top: 5px;
+	}
+
+
+}
+
+/* screen min-width 1224 */
+
+@media only screen and (min-width: 1224px) {
+
+	.project-title {
+		width: 27%;
+	}
+
+	#projects h2 {
+		font-size: 35px;
+		text-shadow: .7px 1px 0.5px #11F3FF;
+	}
+
+}
 
 
 
